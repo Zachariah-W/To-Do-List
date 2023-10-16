@@ -1,0 +1,16 @@
+.taskContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.checkButtons{
+    background-color: white;
+}
+
+button{
+    border-radius: 10px;
+}
