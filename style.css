@@ -1,31 +1,10 @@
-.taskContainer{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background-color:cornflowerblue;
-    border-bottom: 1px solid black;
-    padding: 5px;
-    border-radius: 6px;
-    font-size: larger;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.checkButtons{
-    background-color: white;
-    position: fixed;
-    left: 85%;
-    height: 27px;
-    width: 180px;
-    font-size: 15px;
-}
-
-.editButtons{
-    background-color: white;
-    position: fixed;
-    left: 70%;
-    height: 27px;
-    width: 180px;
-    font-size: 15px;
+body{
+    background-color:slategray;
 }
 
 button{
@@ -43,11 +22,41 @@ button{
     border-color: black;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.taskContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color:cornflowerblue;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-body{
-    background-color:slategray;
+.checkButtons{
+    background-color: white;
+    position: fixed;
+    height: 27px;
+    width: 180px;
+    font-size: 15px;
+    left: 85%;
+}
+
+.editButtons{
+    background-color: white;
+    position: fixed;
+    height: 27px;
+    width: 180px;
+    font-size: 15px;
+    left: 70%;
+}
+
+.dateButton{
+    background-color: white;
+    position: fixed;
+    height: 27px;
+    width: 180px;
+    font-size: 15px;
+    left: 55%;
 }
